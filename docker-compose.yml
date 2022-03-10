@@ -19,8 +19,8 @@ php:
 app:
   image: php:7.0-fpm
   volumes:
-    - ./project/public/jobsity:/var/www/html/jobsity
-    - ./project:/var/www
+    - ./src/public/jobsity:/var/www/html/jobsity
+    - ./src:/var/www
   command: "true"
 
 mysql:
